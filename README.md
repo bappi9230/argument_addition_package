@@ -24,7 +24,7 @@ Add::sum(12,23,12,..............);
 ## Publish Configuration 
 
 ```sh
-php artisan vendor:publish Bappi\Sum
+ php artisan vendor:publish --provider="Bappi\Sum\SumServiceProvider"
 ```
 
 ## Contribution 
