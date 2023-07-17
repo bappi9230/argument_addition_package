@@ -30,3 +30,6 @@ php artisan vendor:publish Bappi\Sum
 ## Contribution 
 
 You can used to add any number of addition just use the instruction.
+=======
+## Installation
+
