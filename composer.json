@@ -1,0 +1,29 @@
+{
+    "name": "bappi/sum",
+    "description": "add two number",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bappi\\Sum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bappi",
+            "email": "bappi.basu1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bappi\\Sum\\SumServiceProvider"
+            ],
+            "aliases": {
+                "Sum": "src/Facades/"
+            }
+        }
+    }
+}
